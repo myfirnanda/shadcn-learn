@@ -1,10 +1,10 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Button } from "./ui/button";
-import { Card, CardContent } from "./ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { Button } from "../ui/button";
+import { Card, CardContent } from "../ui/card";
 
 export default function ProfileCard() {
     return (
-        <Card>        
+        <Card>
           <CardContent className='flex flex-col items-center'>
             <Avatar className='size-24'>
               <AvatarImage
