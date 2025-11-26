@@ -1,73 +1,20 @@
-# React + TypeScript + Vite
+React x Shadcn UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Cover
+<img width="1366" height="607" alt="screencapture-localhost-5173-2025-11-26-10_06_02" src="https://github.com/user-attachments/assets/c9822620-704e-4abd-93bb-91a99e5abd4b" />
 
-Currently, two official plugins are available:
+# Button
+<img width="1366" height="607" alt="screencapture-localhost-5173-button-2025-11-26-10_06_14" src="https://github.com/user-attachments/assets/0fe682cb-b483-439d-b5b5-a83ec2616e93" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Profile Card
+<img width="1366" height="607" alt="screencapture-localhost-5173-card-profile-2025-11-26-10_06_23" src="https://github.com/user-attachments/assets/4b6008d2-5c0b-4a21-9eb9-7da549f30c8e" />
 
-## React Compiler
+# Form Action
+<img width="1366" height="607" alt="screencapture-localhost-5173-form-hook-2025-11-26-10_06_32" src="https://github.com/user-attachments/assets/bdd63a90-752a-4575-98c0-c6cb794749f1" />
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+# Dashboard
+<img width="1366" height="1135" alt="screencapture-localhost-5173-dashboard-2025-11-26-10_06_40" src="https://github.com/user-attachments/assets/38b4dd3c-5dc1-424c-b4cc-227e6e63ddda" />
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Enhance Looks ✨
+https://www.youtube.com/watch?v=jHzdo1Bm9Lk
+enhancing design by modifying the theme color or font by using https://tweakcn.com/ or using https://shadcnthemer.com/ . So that you not just using default black and white shadcn template
